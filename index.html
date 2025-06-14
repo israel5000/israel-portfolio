@@ -3,21 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;900&family=Source+Sans+Pro:wght@300;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="./css/styles.css">
-    <title>Document</title>
+    <title>ISRAEL ADAMS | Portfolio</title>
 </head>
 <body>
+  <!-- header section end -->
     <header class="main-header">
         <div class="logo">
-
+          Portfolio
         </div>
         <input type="checkbox" id="menu-button" class="menu-button" name="menu-button">
-        <label for="menu-button">
-            <span class="harmbugger"></span>
+        <label for="menu-button" class="menu-container">
+            <span class="hamburger"></span>
         </label>
         <nav class="nav">
-
+          <ul class="navlist">
+                <li class="navitem"><a href="#home" class="nav__link">Home</a></li>
+                <li class="navitem"><a href="#services" class="nav__link">Services</a></li>
+                <li class="navitem"><a href="#about" class="nav__link">About Me</a></li>
+                <li class="navitem"><a href="#project" class="nav__link">Project</a></li>
+          </ul>
         </nav>
     </header>
+    <!-- header section end -->
+
+    <!-- intro section start -->
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">Hello, <strong>I am ISRAEL</strong></h1>
+        <p class="section__subtitle section__subtitle--intro">Frontend Developer</p>
+        <span class="section__subtitle--design">Designer</span>
+        <img src="/imgs/download (1).jpg" alt="african" class="intro__img">
+     </section>
+    <!-- intro section end -->
+
+    <!-- MY SERVICES START -->
+     <section class="my-services" id="services">
+      <h2 class="section__title section__title--services">What i do</h2>
+      <div class="services">
+        <div class="service">
+          <h3>UI/UX</h3>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti voluptatum pariatur adipisci delectus. Labore, laboriosam.</p>
+        </div>
+        <div class="service">
+          <h3>Frontend</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos officiis velit similique, voluptas doloremque impedit!</p>
+        </div>
+        <div class="service">
+          <h3>Digital marketing</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos officiis velit similique, voluptas doloremque impedit!</p>
+        </div>
+        <div class="service">
+          <h3>Gaphic design</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos officiis velit similique, voluptas doloremque impedit!</p>
+        </div>
+      </div>
+      <a href="*work" class="btn">My Project</a>
+     </section>
+     <footer class="footer" id="footer">
+       <a href="mailto:jayisrael813@gmail.com" class="footer-link">jayisrael813@gmail.com</a>                     
+       <ul class="social-list">
+      <!-- </footer> -->
 </body>
 </html>
