@@ -165,15 +165,15 @@ h3{
     position: absolute;
 }
 .hamburger::before{
-    margin-top: -6px;
+    margin-top: -10px;
 }
 .hamburger::after{
-    margin-top: 6px;
+    margin-top: 10px;
 }
 
 /* STYLES FOR ACTIVE NAV STATE */
 #menu-button:checked + .menu-container .hamburger{
-    transform: rotate(.625turn);
+    transform: rotate(.700turn);
 }
 #menu-button:checked + .menu-container .hamburger::before{
     transform: rotate(-90deg) translateX(-6px);
