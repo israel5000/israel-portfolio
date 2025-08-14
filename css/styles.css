@@ -155,11 +155,11 @@ h3{
     cursor: pointer;
     transition: transform 250ms ease-in-out;
 }
-.hamburger{
-    position: relative;
-    z-index: 1000;
-    right: 0;
-}
+    .hamburger{
+        position: relative;
+        z-index: 1000;
+        right: 0;
+    }
 .hamburger::before,.hamburger::after{
     content: "";
     position: absolute;
